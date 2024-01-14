@@ -9,6 +9,9 @@ print(f"Minha lista de exemplo {minha_lista}")
 print(f"minha_lista[0]: {minha_lista[0]}")
 print(f"minha_lista[5]: {minha_lista[5]}")
 
+#ultimo item da lista
+print(f"Ultimo item da lista {minha_lista[-1]}")
+
 # fatiar uma lista , pegar uma parte dela ou slice
 print(f"minha_lista[1:6]: {minha_lista[1:6]}")
 # também é possível pegar do começo em diante
@@ -45,3 +48,4 @@ print(f"Remoção do numero 8 com remove {minha_lista}")
 lista_de_numeros = [1,4,8,3,9,0,2,0,1]
 lista_de_numeros.sort()
 print(f"Lista organizada {lista_de_numeros}")
+
