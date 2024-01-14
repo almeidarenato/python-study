@@ -42,3 +42,9 @@ print("conversao de float para int",int(divisao))
 modulo = 5 % 2
 
 print("Restante da divisão",modulo )
+
+#divisao inteiro - mostra apenas a parte inteiro do resultado
+divisao = 5//2
+print("Resultado",divisao)
+print("Tipo:",type(divisao))
+
