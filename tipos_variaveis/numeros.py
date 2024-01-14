@@ -41,4 +41,4 @@ print("conversao de float para int",int(divisao))
 
 modulo = 5 % 2
 
-print( ]Modulo,modulo )
+print("Restante da divisão",modulo )
