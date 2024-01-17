@@ -48,3 +48,8 @@ divisao = 5//2
 print("Resultado",divisao)
 print("Tipo:",type(divisao))
 
+
+#elevado 
+
+numero_elevado = 5**2
+print("Resultado",numero_elevado)
