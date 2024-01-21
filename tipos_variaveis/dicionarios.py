@@ -35,3 +35,8 @@ print("Items do dicionario",items)
 items = list(pessoa.items())
 print(f"Primeira chave e valor: {items[0][0]} = {items[0][1]}")
 
+## Adicionar um novo elemento no dicionário
+print(pessoa)
+pessoa.update({"nome": "Rodrigo","idade": 29})
+
+print(pessoa)
