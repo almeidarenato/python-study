@@ -62,3 +62,40 @@ conta.depositar(valor=-500) ## não será permitido
 print(f"saldo da conta bancária {conta.consultar_saldo()}")
 conta.sacar(500)
 print(f"saldo da conta bancária {conta.consultar_saldo()}")
+
+# Abstração
+# Uma classe abstrata não permite criar instancias a partir dela diretamente. 
+# Ela é apenas um molde que obriga quem herda a implementar seus métodos.
+# Exemplo de abstração
+
+# a classe abstrata não implementa nada. É apenas um molde.
+from abc import ABC, abstractmethod
+
+class Veiculo(ABC):
+    
+    @abstractmethod
+    def ligar(self):
+        pass
+    
+    @abstractmethod
+    def desligar(self):
+       pass
+
+class Carro(Veiculo):
+    def __init__(self) -> None:
+        pass
+
+    def ligar(self):
+        return "Carro ligado usando a chave"
+    
+    def desligar(self):
+        return "Carro desligado usando a chave"
+
+carro_amarelo = Carro()
+print(carro_amarelo.ligar())
+print(carro_amarelo.desligar())
+
+# Exemplo real de abstração
+# Acesso a banco de dados e retornos
+# Podemos usar uma classe abstrata com os métodos usados para trazer dados do banco
+# E ter diversas instancias com diferentes bacnos de dados. 
