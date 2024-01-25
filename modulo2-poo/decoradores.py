@@ -1,4 +1,6 @@
-#Funções utilizadas muito para validações
+# Decoradores
+# Adicionamos funcionalidades sem alterar o código da própria função.
+# Exemplo : Adicionar uma autorização
 
 def meu_decorador(func):
     def wrapper():
@@ -13,6 +15,7 @@ def minha_funcao():
 
 minha_funcao()
 
+# Abordagem menos comum. Porém muitas bibliotecas utilizam.
 
 class MeuDecoradorDeClasse:
     def __init__(self,func) -> None:
