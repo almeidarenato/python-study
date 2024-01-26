@@ -27,7 +27,7 @@ print(MinhaClasse.valor) # Como é um atributo da classe não preciso de uma ins
 print(MinhaClasse.metodo_classe()) # consigo chamar um método apenas com a classe com o decorator @classmethod
 print(MinhaClasse.metodo_estatico()) #consigo chamar o método apenas com a classe com o decorator @staticmethod porém sem acesso aos atributos
 
-# Método classmethod pode ser usado para criar instâncias da classe
+# O decorador @classmethod pode ser usado para criar instâncias da classe
 
 class Carro:
     def __init__(self,marca,modelo,ano) -> None:
