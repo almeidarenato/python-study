@@ -17,6 +17,9 @@ app = Flask(__name__)
 def helloworld():
     return "Hello World"
 
+@app.route("/about")
+def about():
+    return "Página sobre"
 # se __name__ = __main__ significa que o servidor está sendo executado manualmente
 if __name__ == "__main__":
     app.run(debug=True)
