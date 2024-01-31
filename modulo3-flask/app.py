@@ -29,8 +29,10 @@
 # (100 a 199) - Respostas Informativas
 # (200 a 299) - Respostas bem sucedidaes
 # (300 a 399) - Mensagens de redirecionamento
-# (400 a 499) - Respostas de erro do cliente
-# (500 a 599) - Respostas de erro do servidor
+# (400 a 499) - Respostas de erro do cliente - erros de inserção / formato de dados
+# 400 Bad Request, 401 Unauthorized, 403 Forbidden, 404 Not Found ..
+# (500 a 599) - Respostas de erro do servidor - erros de dentro do servidor 
+# 500 Internal Server Error
 
 from flask import Flask
 
