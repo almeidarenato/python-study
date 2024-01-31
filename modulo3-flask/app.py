@@ -25,6 +25,13 @@
 # Rest princípios/regras que vão permear as comunicações entre os sistemas
 # Quando a API respeita todos os padrões de Rest , são Restful
 
+# Códigos de Resposta / Response
+# (100 a 199) - Respostas Informativas
+# (200 a 299) - Respostas bem sucedidaes
+# (300 a 399) - Mensagens de redirecionamento
+# (400 a 499) - Respostas de erro do cliente
+# (500 a 599) - Respostas de erro do servidor
+
 from flask import Flask
 
 app = Flask(__name__)
