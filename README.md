@@ -14,3 +14,6 @@ https://www.w3schools.com/python/python_modules.asp
 
 # Modulos de Terceiros
 https://pypi.org/ 
+
+# Documentação de APIs
+https://editor.swagger.io/ 
