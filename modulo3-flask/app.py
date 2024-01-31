@@ -10,8 +10,15 @@
 # Para instalar os modulos a partir do arquivo de Dependências basta usar 
 # pip3 install -r requirements.txt
 
-
+# Protocolo HTTP:
 # Métodos GET , POST , PUT , DELETE , PATCH
+# GET - Solicita a Representação de um recurso específico (endpoint). Deve retornar apenas dados.
+# POST - O método POST é utilizado para submeter uma entidade/informações a um recurso específico. Causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
+# PUT - Substitui todas as informações de uma entidade/recurso específico. Portanto você é obrigado a substituir tudo.
+# PATCH -  Aplica modificações parciais
+# DELETE - Remove um recurso específico.
+
+
 # Rest (Representational State Transfer) Obrigatoriamente usamos JSON e XML para representar
 # Api Rest x Api Restful
 # Api Rest = estilo de arquitetura para desenvolvimento de API
